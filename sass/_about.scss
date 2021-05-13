@@ -1,0 +1,38 @@
+.about-section {
+    text-align: center;
+    padding: 128px 16px;
+    .about-container {
+        padding-bottom: 30px;
+        h2 {
+            font-weight: 400;
+            padding-bottom: 20px;
+        }
+        span {
+            font-size: 18px !important;
+        }
+    }
+}
+
+.container_about {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2vw;
+    padding-top: 30px;
+
+    div {
+        padding-bottom: 10px;
+        position: relative;
+        h3 {
+            padding: 20px;
+        }
+        p {
+            padding: 20px;
+            position: absolute;
+            padding: 10px;
+        }
+        #id_icon {
+            font-size: $font_size_icon;
+        }
+    }
+}
