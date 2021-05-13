@@ -1,3 +1,60 @@
+.header {
+  background-color: #fff !important;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .navbar .navbar_link {
+    padding-left: 30px;
+    letter-spacing: 4px;
+    text-decoration: none;
+    color: #000; }
+  .navbar .navbar-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row; }
+    .navbar .navbar-list li {
+      display: block;
+      padding: 20px 16px; }
+      .navbar .navbar-list li:hover {
+        background-color: #9b9999; }
+      .navbar .navbar-list li .navbar-list-item {
+        text-decoration: none;
+        color: black; }
+
+.background-container {
+  background-position: center;
+  background-size: cover;
+  background-image: url("../assets/img/mac.jpg");
+  filter: grayscale(50%);
+  height: 350px; }
+  .background-container div {
+    color: #fff;
+    padding: 48px; }
+    .background-container div h1 {
+      font-size: 64px !important;
+      padding-bottom: 40px;
+      font-weight: 200; }
+    .background-container div p {
+      font-size: 18px !important;
+      padding-bottom: 30px; }
+    .background-container div button {
+      color: #000 !important;
+      background-color: #fff !important;
+      padding: 12px 24px !important;
+      border: none;
+      font-size: 18px !important; }
+    .background-container div .icon_container {
+      padding: 30px 0px 0 0px !important; }
+      .background-container div .icon_container #icon_style {
+        color: gray; }
+
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: "Raleway", sans-serif; }

@@ -1,0 +1,33 @@
+.background-container {
+    background-position: center;
+    background-size: cover;
+    background-image: url("../assets/img/mac.jpg");
+    filter: grayscale(50%);
+    height: 350px;
+    div {
+        color: $font_color;
+        padding: 48px;
+        h1 {
+            font-size: $big_font_size;
+            padding-bottom: 40px;
+            font-weight: 200;
+        }
+        p {
+            font-size: 18px !important;
+            padding-bottom: 30px;
+        }
+        button {
+            color: #000 !important;
+            background-color: #fff !important;
+            padding: 12px 24px !important;
+            border: none;
+            font-size: 18px !important;
+        }
+        .icon_container {
+            padding: 30px 0px 0 0px !important;
+            #icon_style {
+                color: gray;
+            }
+        }
+    }
+}
