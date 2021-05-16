@@ -1,0 +1,27 @@
+.section_work {
+    text-align: center;
+    padding: 128px 16px;
+    .work-container {
+        padding-bottom: 30px;
+        h2 {
+            font-weight: 400;
+            padding-bottom: 20px;
+            font-size: 24px;
+        }
+        span {
+            font-size: 18px !important;
+        }
+    }
+}
+
+.container_work {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding-top: 30px;
+    img{
+        width: 360px;
+    }
+
+}
