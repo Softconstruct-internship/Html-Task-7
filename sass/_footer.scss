@@ -1,0 +1,37 @@
+.footer {
+    background-color: black;
+    width: 100%;
+    padding-top: 64px !important;
+    padding-bottom: 64px !important;
+    text-align: center;
+    color: white;
+    button {
+        text-align: center;
+        cursor: pointer;
+        padding: 8px 16px;
+        &:hover {
+            background-color: #bdb6b6;
+        }
+    }
+    .icon_container {
+        cursor: pointer;
+        padding-top: 20px;
+        font-size: 24px !important;
+        #icon_style {
+            color: white;
+            &:hover {
+                color: #bdb6b6;
+            }
+        }
+    }
+    p {
+        margin-top: 16px !important;
+        margin-bottom: 16px !important;
+        a {
+            color: white;
+            &:hover {
+                color: green;
+            }
+        }
+    }
+}
