@@ -6,11 +6,15 @@
     text-align: center;
     color: white;
     button {
+        color: black;
+        background-color: #f1f1f1;
+        padding: 15px 20px;
+        cursor: pointer;
+        text-decoration: none;
         text-align: center;
         cursor: pointer;
-        padding: 8px 16px;
         &:hover {
-            background-color: #bdb6b6;
+            background-color: #b3b0b0;
         }
     }
     .icon_container {
