@@ -242,6 +242,61 @@
         justify-content: center;
         display: flex; }
 
+.contact-form {
+  background-color: #f1f1f1 !important;
+  padding: 128px 16px;
+  padding-top: 50px; }
+  .contact-form div .contact_header {
+    text-align: center; }
+    .contact-form div .contact_header h2 {
+      font-family: "Segoe UI", Arial, sans-serif;
+      font-weight: 400;
+      font-size: 24px;
+      margin: 10px 0;
+      padding-bottom: 20px; }
+    .contact-form div .contact_header p {
+      font-family: "Raleway", sans-serif;
+      font-size: 18px !important; }
+
+.contact_container {
+  font-size: 20px !important; }
+  .contact_container span {
+    display: block;
+    padding-top: 30px; }
+  .contact_container i {
+    font-size: 30px; }
+
+.container {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  padding-top: 30px; }
+  .container .form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px; }
+    .container .form .form-input {
+      margin-bottom: 20px;
+      padding: 8px 16px;
+      font-size: 16px; }
+    .container .form .form-button {
+      display: inline-block;
+      width: fit-content;
+      font-size: 16px;
+      border: 0;
+      padding: 8px 16px;
+      background-color: black;
+      color: white; }
+      .container .form .form-button:hover {
+        background-color: #b6b6b6;
+        color: black; }
+
+.map-container {
+  margin-top: 30px; }
+  .map-container img {
+    width: 100%;
+    height: 800px; }
+
 * {
   margin: 0;
   padding: 0;
