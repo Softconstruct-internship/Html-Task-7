@@ -3,10 +3,12 @@
     background-size: cover;
     background-image: url("../assets/img/mac.jpg");
     filter: grayscale(50%);
-    height: 350px;
-    div {
+    height: 700px;
+    .main_context {
         color: $font_color;
         padding: 48px;
+        position: absolute;
+        top: 25%;
         h1 {
             font-size: $big_font_size;
             padding-bottom: 40px;
@@ -19,15 +21,19 @@
         button {
             color: #000 !important;
             background-color: #fff !important;
-            padding: 12px 24px !important;
+            padding: 20px 30px !important;
             border: none;
+            opacity: 0.60;
             font-size: 18px !important;
         }
-        .icon_container {
-            padding: 30px 0px 0 0px !important;
-            #icon_style {
-                color: gray;
-            }
+    }
+    .icon_container {
+        padding: 24px 48px;
+        font-size: 20px;
+        position: absolute;
+        bottom: 0;
+        #icon_style {
+            color: gray;
         }
     }
 }

@@ -1,0 +1,82 @@
+.team-container {
+    padding: 128px 16px;
+    div {
+        text-align: center !important;
+        h2 {
+            font-family: "Segoe UI", Arial, sans-serif;
+            font-weight: 400;
+            margin: 15px 0;
+            font-size: 24px;
+        }
+        p {
+            font-size: 18px !important;
+            padding: 15px 0 30px 0;
+        }
+    }
+}
+
+.teams-conatainer {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2vw;
+    padding-top: 30px;
+}
+.teams-conatainer > div {
+    height: 200px;
+    font-size: 5vw;
+    .info_container {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        img {
+            width: 100%;
+        }
+        div {
+            padding: 10px;
+            margin: 10px;
+        }
+        h3 {
+            font-family: "Segoe UI", Arial, sans-serif;
+            font-weight: 400;
+            font-size: 24px;
+            margin: 10px 0;
+        }
+        small {
+            opacity: 0.6;
+            line-height: 1.8;
+        }
+        p {
+            padding: 15px 0 15px 0;
+            line-height: 1.8;
+            font-size: 15px;
+            font-family: "Raleway", sans-serif;
+        }
+
+        button {
+            width: 100%;
+            height: 40px;
+            border: none;
+            &:hover {
+                background-color: rgb(201, 203, 204);
+                cursor: pointer;
+            }
+        }
+    }
+}
+.num{
+    padding-top: 64px!important;
+    padding-bottom: 64px!important;
+    color: #fff!important;
+    background-color: #616161!important;
+    div{
+        display: flex;
+        justify-content: space-around;
+        h2{
+            font-size: 36px!important;
+            display: block;
+            sup{
+                font-size: 25px;
+            }
+        }
+    }
+
+}

@@ -32,27 +32,33 @@
   background-size: cover;
   background-image: url("../assets/img/mac.jpg");
   filter: grayscale(50%);
-  height: 350px; }
-  .background-container div {
+  height: 700px; }
+  .background-container .main_context {
     color: #fff;
-    padding: 48px; }
-    .background-container div h1 {
+    padding: 48px;
+    position: absolute;
+    top: 25%; }
+    .background-container .main_context h1 {
       font-size: 64px !important;
       padding-bottom: 40px;
       font-weight: 200; }
-    .background-container div p {
+    .background-container .main_context p {
       font-size: 18px !important;
       padding-bottom: 30px; }
-    .background-container div button {
+    .background-container .main_context button {
       color: #000 !important;
       background-color: #fff !important;
-      padding: 12px 24px !important;
+      padding: 20px 30px !important;
       border: none;
+      opacity: 0.60;
       font-size: 18px !important; }
-    .background-container div .icon_container {
-      padding: 30px 0px 0 0px !important; }
-      .background-container div .icon_container #icon_style {
-        color: gray; }
+  .background-container .icon_container {
+    padding: 24px 48px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0; }
+    .background-container .icon_container #icon_style {
+      color: gray; }
 
 .about-section {
   text-align: center;
@@ -83,8 +89,98 @@
     .container_about div #id_icon {
       font-size: 60px; }
 
+.section_designe {
+  background-color: #f1f1f1 !important;
+  height: 400px;
+  padding: 128px 50px; }
+  .section_designe .design_container {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2vw;
+    padding-top: 30px; }
+  .section_designe .container h3 {
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 24px;
+    line-height: 1.8;
+    padding-bottom: 20px; }
+  .section_designe .container p {
+    padding-bottom: 25px;
+    width: 480px; }
+  .section_designe .container button {
+    color: #fff !important;
+    background-color: #000 !important;
+    padding: 8px 16px;
+    cursor: pointer; }
+
+.team-container {
+  padding: 128px 16px; }
+  .team-container div {
+    text-align: center !important; }
+    .team-container div h2 {
+      font-family: "Segoe UI", Arial, sans-serif;
+      font-weight: 400;
+      margin: 15px 0;
+      font-size: 24px; }
+    .team-container div p {
+      font-size: 18px !important;
+      padding: 15px 0 30px 0; }
+
+.teams-conatainer {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2vw;
+  padding-top: 30px; }
+
+.teams-conatainer > div {
+  height: 200px;
+  font-size: 5vw; }
+  .teams-conatainer > div .info_container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+    .teams-conatainer > div .info_container img {
+      width: 100%; }
+    .teams-conatainer > div .info_container div {
+      padding: 10px;
+      margin: 10px; }
+    .teams-conatainer > div .info_container h3 {
+      font-family: "Segoe UI", Arial, sans-serif;
+      font-weight: 400;
+      font-size: 24px;
+      margin: 10px 0; }
+    .teams-conatainer > div .info_container small {
+      opacity: 0.6;
+      line-height: 1.8; }
+    .teams-conatainer > div .info_container p {
+      padding: 15px 0 15px 0;
+      line-height: 1.8;
+      font-size: 15px;
+      font-family: "Raleway", sans-serif; }
+    .teams-conatainer > div .info_container button {
+      width: 100%;
+      height: 40px;
+      border: none; }
+      .teams-conatainer > div .info_container button:hover {
+        background-color: #c9cbcc;
+        cursor: pointer; }
+
+.num {
+  padding-top: 64px !important;
+  padding-bottom: 64px !important;
+  color: #fff !important;
+  background-color: #616161 !important; }
+  .num div {
+    display: flex;
+    justify-content: space-around; }
+    .num div h2 {
+      font-size: 36px !important;
+      display: block; }
+      .num div h2 sup {
+        font-size: 25px; }
+
 * {
   margin: 0;
   padding: 0;
-  font-family: "Raleway", sans-serif;
+  font-size: 15px;
   font-family: "Raleway", sans-serif; }
