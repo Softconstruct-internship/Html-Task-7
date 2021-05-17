@@ -1,15 +1,14 @@
-.section_skills {
+.skills_container {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2vw;
+    padding-top: 30px;
     background-color: $design_background_color;
-    height: 300px;
+    height: 400px;
     padding: 64px !important;
-    .skills_container {
-        display: grid;
-        grid-template-rows: 1fr;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 2vw;
-        padding-top: 30px;
-    }
-    .container_skills{
+
+    .container_skills {
         h3 {
             font-weight: 400;
             margin: 10px 0;
@@ -19,7 +18,7 @@
         }
         p {
             padding-bottom: 25px;
-            width: 480px;
+            width: 100%;
             line-height: 1.8;
         }
     }
@@ -48,5 +47,14 @@
                 display: flex;
             }
         }
+    }
+}
+
+@media (max-width: 1000px) {
+    .skills_container {
+        grid-template-columns: 1fr;
+        padding: 0;
+        text-align: center;
+        height: 50%;
     }
 }

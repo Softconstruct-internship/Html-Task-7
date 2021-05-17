@@ -1,14 +1,11 @@
 .section_designe {
     background-color: $design_background_color;
-    height: 500px;
-    padding: 64px !important;
-    .design_container {
-        display: grid;
-        grid-template-rows: 1fr;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 2vw;
-        padding-top: 30px;
-    }
+    height: auto;
+    padding: 100px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2vw;
     .containers {
         h3 {
             font-weight: 400;
@@ -19,11 +16,11 @@
         }
         p {
             padding-bottom: 25px;
-            width: 480px;
+            width: auto;
             line-height: 1.8;
         }
         button {
-            color: #fff ;
+            color: #fff;
             background-color: #000 !important;
             padding: 15px 20px;
             cursor: pointer;
@@ -31,8 +28,19 @@
             &:hover {
                 color: black;
                 background-color: #bdb6b6 !important;
-                border: 0  solid gray;
+                border: 0 solid gray;
             }
+        }
+    }
+}
+
+@media screen and (max-width: 1173px) {
+    .section_designe {
+        grid-template-columns: 1fr;
+        text-align: center;
+        .img_container {
+            width: 100%;
+            padding: 0;
         }
     }
 }

@@ -37,3 +37,12 @@
         }
     }
 }
+
+@media (max-width: 601px) {
+    .container_about {
+        grid-template-columns: 1fr;
+        div {
+            padding: 20px;
+        }
+    }
+}
