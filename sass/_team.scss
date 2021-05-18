@@ -17,13 +17,12 @@
 
 .teams-conatainer {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 2vw;
     padding-top: 30px;
 }
 .teams-conatainer > div {
-    height: 200px;
     font-size: 5vw;
     .info_container {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -85,12 +84,10 @@
     .teams-conatainer {
         grid-template-rows: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
-        row-gap: 315px;
         height: auto;
         width: 100%;
         padding: 10px !important;
         .info_container {
-            height: 10px;
             width: 100%;
             padding: 10px !important;
         }
@@ -100,12 +97,8 @@
 @media (max-width: 601px) {
     .teams-conatainer {
         grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width: 601px) {
-    .num {
-        grid-template-columns: 1fr;
-        row-gap: 30px;
+        div{
+            padding: 32px;
+        }
     }
 }
